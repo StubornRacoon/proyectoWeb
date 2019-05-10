@@ -1,8 +1,3 @@
-.header {
-    align-content: center;
-}
-body {
-  background-image: url("https://www.homecookingadventure.com/images/gradient_filler.png");
-  background-repeat: repeat;
-  background-size: cover;
+body, html {
+  background-color:#e9d9bd;
 }
