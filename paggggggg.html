@@ -14,9 +14,9 @@
 
 <body>
   <section id="page-top">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-warning navbar-light">
       <!-- Brand -->
-      <a class="navbar-brand" href="#">Nuestra Barra</a>
+      <a class="navbar-brand" href="#">Nuestra Pagina Web</a>
 
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -29,18 +29,33 @@
           <li class="nav-item">
             <a class="nav-link" href="#page-top">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Ingresar
+            </a>
+            <div class="dropdown-menu">
+              <input type="text" name="usuario" value="usuario">
+              <input type="text" name="pass" value="pass">
+              <a class="dropdown-item" style="text-align:right">GO</a>
+            </div>
           </li>
         </ul>
       </div>
     </nav>
   </section>
-  <p class="py-5 text-center" id="title">Cook E-Learning!</p>
-  <img src="https://cnet4.cbsistatic.com/img/g6_kpESppCKO4SzJ0RK3VcPzRvc=/1600x900/2018/07/27/d8a4a74d-013c-4565-b4a3-5f894dc0b848/cnet-smart-home-pr-images-0035.jpg" alt="">
+  <div class="container-fluid">
+    <section class="row no-gutter align-items-left">
+      <div class="col-lg-6 text-center p-0 d-flex align-items-center">
+        <img class="img-fluid float-left makemeround" src="image\frontpagepresnt.jpg" alt="">
+        <h3 class="mask rgba-red-strong">
+          <p class="retroshd"><i>Bienvenidos!</i>
+          </p>
+        </h3>
+      </div>
+    </section>
+  </div>
+
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <script type="text/javascript">
     // When the user scrolls down 20px from the top of the document, show the button
