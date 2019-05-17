@@ -24,5 +24,5 @@ body, html {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 #title {
-  font-family: fantasy;
+  font-family: inherit;
 }
