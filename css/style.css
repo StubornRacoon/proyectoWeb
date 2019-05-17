@@ -1,0 +1,97 @@
+body, html {
+  background-color:#e9d9bd;
+  text-align: center;
+}
+ul {
+  border: 1px solid #e7b153;;
+  background-color: #e7b153;
+}
+
+li {
+  color: #666;
+  background-color: #e7b153;
+}
+/*#barranav{
+ #e7b153;
+}*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+#title {
+  font-family: inherit;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+/* Centered text */
+h3 {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: Black;
+  font-size: 30px;
+  font-family: fantasy;
+}
+.column {
+
+  float: right;
+  width: 30%;
+  padding: 10px;
+  background-color: blue;
+  margin: auto;
+  border: 3px solid green;
+  height: 500px;
+
+}
+.row{
+  margin: auto;
+}
+/* para hacer responsivas las columnas pero deja la cagá
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }*/
+.About{
+  background-image: url("https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco/https://storage.googleapis.com/gen-atmedia/3/2018/06/7cfb26c5de5598689831ad73f3bb4bf59fd148ed.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#wololo{
+  padding-top: 10%;
+}
+.retroshd {
+  color: #e07b00;
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px white, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+}
+.retroshd:hover {
+    text-decoration: none;
+}
