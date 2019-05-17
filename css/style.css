@@ -2,6 +2,21 @@ body, html {
   background-color:#e9d9bd;
   text-align: center;
 }
+ul {
+  border: 1px solid #e7b153;;
+  background-color: #e7b153;
+}
+
+li {
+  color: #666;
+  background-color: #e7b153;
+}
+img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
 /*#barranav{
  #e7b153;
 }*/
@@ -13,7 +28,7 @@ body, html {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #e9d9bd; /* Set a background color */
+  background-color: white; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -25,6 +40,23 @@ body, html {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 #title {
+  font-family: inherit;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+/* Centered text */
+h3 {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: Black;
+  font-size: 30px;
   font-family: fantasy;
 }
 .column {
@@ -55,4 +87,16 @@ body, html {
 }
 #wololo{
   padding-top: 10%; 
+}
+.retroshd {
+  color: #e07b00;
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px white, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+}
+.retroshd:hover {
+    text-decoration: none;
+}
+.makemeround{
+  border-radius: 8px;
 }
