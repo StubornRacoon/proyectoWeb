@@ -1,5 +1,6 @@
 body, html {
   background-color:#e9d9bd;
+  text-align: center;
 }
 /*#barranav{
  #e7b153;
@@ -25,4 +26,33 @@ body, html {
 }
 #title {
   font-family: fantasy;
+}
+.column {
+  
+  float: right;
+  width: 30%;
+  padding: 10px;
+  background-color: blue;
+  margin: auto;
+  border: 3px solid green;
+  height: 500px;
+ 
+}
+.row{
+  margin: auto;
+}
+/* para hacer responsivas las columnas pero deja la cagá
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }*/
+.About{
+  background-image: url("https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco/https://storage.googleapis.com/gen-atmedia/3/2018/06/7cfb26c5de5598689831ad73f3bb4bf59fd148ed.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  
+}
+#wololo{
+  padding-top: 10%; 
 }

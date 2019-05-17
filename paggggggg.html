@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/bar.js"></script>
   <title>Cooking Mama</title>
 </head>
 
@@ -40,28 +41,32 @@
     </nav>
   </section>
   <p class="py-5 text-center" id="title">Cook E-Learning!</p>
-  <img src="https://cnet4.cbsistatic.com/img/g6_kpESppCKO4SzJ0RK3VcPzRvc=/1600x900/2018/07/27/d8a4a74d-013c-4565-b4a3-5f894dc0b848/cnet-smart-home-pr-images-0035.jpg" alt="">
+  <div class="About">
+    <div id="wololo" class="row">
+      <div class="col-sm-3 col-md-6">
+        <p>NOW YOU ARE COOKING WITH POWER</p>
+      </div>
+      <div class="col-sm-7 col-sm-offset-5 col-md-6 col-md-offset-8">
+          <button type="button" class="btn btn-primary btn-lg">START LEARNING</button>
+      </div>
+    </div>
+  </div>
+
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-  <script type="text/javascript">
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {
-      scrollFunction()
-    };
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
-    }
+  <div class="row">
+    <div class="column">
+      <p>queques</p>
+    </div>
+    <div class="column">
+      <p>pastas</p>
+    </div>
+    <div class="column">
+      <p>metanfetamina</p>
+    </div>
+  </div>
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-  </script>
+
 </body>
 
 </html>
