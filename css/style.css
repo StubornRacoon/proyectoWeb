@@ -77,7 +77,6 @@ h3 {
   background-size: cover;
   background-position: bottom;
   height: 600px;
-  border-radius: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
@@ -91,7 +90,23 @@ h3 {
   letter-spacing: .05em;
   text-shadow: 4px 4px 0px white, 7px 7px 0px rgba(0, 0, 0, 0.2);
   font-family: sans-serif;
+  font-size: 32px;
+  font-style: oblique;
 }
 .retroshd:hover {
     text-decoration: none;
+}
+.makemeround{
+  border-radius: 5px;
+}
+.paragtext{
+  color: white;
+  font-family: Trebuchet MS;
+}
+.parahead{
+
+    color: white;
+    font-size: 20px;
+    font-family: Bookman Old Style;
+    font-weight: bold;
 }
