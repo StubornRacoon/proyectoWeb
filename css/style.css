@@ -62,6 +62,7 @@ h3 {
   margin: auto;
   border: 3px solid green;
   height: 800px;
+  border-radius: 5px;
 
 }
 .row{
