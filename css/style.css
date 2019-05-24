@@ -1,3 +1,6 @@
+/*
+overall color
+*/
 body, html {
   background-color:#e9d9bd;
   text-align: center;
@@ -14,6 +17,7 @@ li {
 /*#barranav{
  #e7b153;
 }*/
+/*GOTO TOP BUTTON*/
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -36,6 +40,7 @@ li {
 #title {
   font-family: inherit;
 }
+
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -86,6 +91,7 @@ h3 {
 #wololo{
   padding-top: 10%;
 }
+/*retroshade, hace que el texto sea... cool?*/
 .retroshd {
   color: #e07b00;
   letter-spacing: .05em;
@@ -97,13 +103,16 @@ h3 {
 .retroshd:hover {
     text-decoration: none;
 }
+/*meme personal, agrega bordes circulares para que no se corten los dedos*/
 .makemeround{
   border-radius: 5px;
 }
+/*texto custom para los parrafos, este es del texto interno*/
 .paragtext{
   color: white;
   font-family: Trebuchet MS;
 }
+/*y este es del titulo*/
 .parahead{
 
     color: white;
@@ -111,6 +120,7 @@ h3 {
     font-family: Bookman Old Style;
     font-weight: bold;
 }
+/*SLIDE BAX*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -146,7 +156,10 @@ h3 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
