@@ -14,23 +14,46 @@
 </head>
 
 <body>
+  <!--the WHOLE nav bar-->
+  <nav class="navbar navbar-expand-md bg-warning navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Nuestra Barra</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a class="nav-link" href="recipe.html">a Recipe.html</a>
+        </li>
+        <li>
+          <a class="nav-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
     <div id="app" class="row">
         <div class="col-sm-2">
-            <button @Click="previousStep"><</button>
+            <button @Click="previousStep()"><</button>
 
         </div>
         <div class="col-sm-8">
             <div v-for="(item, index) in recipe" v-if="index===n">
-                <span >{{ item.step }} </span>
-
+                <span >{{ recipe.step }}</span>
             </div>
-
         </div>
         <div class="col-sm-2">
-                <button @Click="nextStep">></button>
+                <button @Click="nextStep()">></button>
         </div>
     </div>
-    <a href="index.html">SHIT, GO BACK</a>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="js/code.js"></script>
 </body>
