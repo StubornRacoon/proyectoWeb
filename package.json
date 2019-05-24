@@ -1,0 +1,6 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
