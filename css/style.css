@@ -167,13 +167,15 @@ h3 {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black; /*IM BLACK YO, IM BLACK YO, IM BLACKITY BLACK-A-BLACK YO*/
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: Bookman Old Style;
+  font-weight: bold;
 }
 
 /* Number text (1/3 etc) */
