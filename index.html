@@ -13,6 +13,10 @@ but FIRE OF JUDGEMENT shall fall upon the heretic who dares to do so!
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link href="css/login-register.css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="js/login-register.js" type="text/javascript"></script>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/style.js"></script>
   <title>Cooking Mama</title>
@@ -35,16 +39,11 @@ but FIRE OF JUDGEMENT shall fall upon the heretic who dares to do so!
           <li class="nav-item">
             <a class="nav-link" href="#page-top">Inicio</a>
           </li>
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Ingresar
-            </a>
-            <div class="dropdown-menu">
-              <input type="text" name="usuario" value="usuario" placeholder="Usuario">
-              <input type="password" name="pass" value="pass" placeholder="Contraseña">
-              <a class="dropdown-item" style="text-align:right" href="recipe.html">GO</a>
-            </div>
+          <li>
+            <a class="nav-link" href="recipe.html">a Recipe.html</a>
+          </li>
+          <li>
+            <a class="nav-link" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a>
           </li>
         </ul>
       </div>
